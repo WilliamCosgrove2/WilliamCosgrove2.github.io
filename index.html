@@ -1,460 +1,620 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>William Cosgrove | Finance Portfolio</title>
+    <title>William Cosgrove | Finance Portfolio</title>
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap"
+        rel="stylesheet"
+    >
 </head>
+
 
 <body>
 
-  <!-- NAVIGATION -->
-  <header class="site-header">
-    <nav class="nav container">
 
-      <a href="#top" class="brand">
-        <span class="brand-mark">RBS</span>
-        <span class="brand-divider"></span>
-        <span class="brand-name">William's Portfolio</span>
-      </a>
+<!-- =====================================
+     NAVIGATION
+===================================== -->
 
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
+<header class="navbar">
 
-        <a
-          class="resume-btn"
-          href="Resume%202026-2.pdf"
-          target="_blank"
-        >
-          Download Resume
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+
+            <span class="logo-rbs">
+                RBS
+            </span>
+
+            <span class="logo-line"></span>
+
+            <span class="logo-name">
+                William's Portfolio
+            </span>
+
         </a>
-      </div>
-
-    </nav>
-  </header>
 
 
-  <main id="top">
+        <nav class="navigation">
 
-    <!-- HERO / PERSONAL STATEMENT -->
-    <section class="hero">
+            <a href="#about">
+                About
+            </a>
 
-      <div class="container hero-grid">
+            <a href="#projects">
+                Projects
+            </a>
 
-        <!-- LEFT SIDE -->
-        <aside class="profile-column">
-
-          <div class="headshot-wrap">
-            <img
-              src="headshot.jpeg"
-              alt="Headshot of William Cosgrove"
-              class="headshot"
+            <a
+                href="Resume%202026-2.pdf"
+                target="_blank"
+                class="resume-button"
             >
-          </div>
+                Download Resume
+            </a>
 
-          <h2>William Cosgrove</h2>
+        </nav>
 
-          <p class="school">
-            Rutgers Business School
-          </p>
+    </div>
 
-          <p class="graduation">
-            Finance • Class of 2028
-          </p>
-
-        </aside>
+</header>
 
 
-        <!-- RIGHT SIDE -->
+
+<!-- =====================================
+     HERO
+===================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-container">
+
+
+        <!-- LEFT PROFILE -->
+
+        <div class="profile">
+
+            <div class="profile-image-container">
+
+                <img
+                    src="headshot.jpeg"
+                    alt="William Cosgrove"
+                    class="profile-image"
+                >
+
+            </div>
+
+
+            <h2>
+                William Cosgrove
+            </h2>
+
+
+            <p class="school">
+                Rutgers Business School
+            </p>
+
+
+            <p class="graduation">
+                Class of 2028 • Expected May 2028
+            </p>
+
+        </div>
+
+
+
+        <!-- RIGHT HERO CONTENT -->
+
         <div class="hero-content" id="about">
 
-          <span class="eyebrow">
-            Finance Student • Rutgers Business School
-          </span>
 
-          <h1>
-            Building a strong foundation in
-            <span>finance, analysis, and business.</span>
-          </h1>
+            <div class="status-pill">
+                Finance Student • Rutgers Business School
+            </div>
 
-          <p class="intro">
-            I’m a Rutgers Business School finance student developing
-            analytical, financial, and business skills through coursework,
-            professional experience, and hands-on projects.
-          </p>
 
-          <div class="hero-actions">
+            <h1>
+                Building a foundation in
+                <span>finance, analysis, and business.</span>
+            </h1>
 
-            <a
-              class="primary-btn"
-              href="mailto:wjc126@scarletmail.rutgers.edu"
-            >
-              Email Me
-            </a>
 
-            <a
-              class="text-link"
-              href="#projects"
-            >
-              Explore My Projects →
-            </a>
+            <p class="hero-description">
 
-          </div>
+                I’m William, a finance student at Rutgers Business School
+                developing analytical and business skills through coursework,
+                professional experience, and hands-on projects. I’m interested
+                in applying financial knowledge to real-world business
+                decisions and opportunities.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="mailto:wjc126@scarletmail.rutgers.edu"
+                    class="email-button"
+                >
+                    Email Me
+                </a>
+
+
+                <a
+                    href="#projects"
+                    class="linkedin-link"
+                >
+                    Explore My Projects
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     SKILLS
+===================================== -->
+
+<section class="skills-section" id="skills">
+
+    <div class="content-container">
+
+
+        <div class="section-introduction">
+
+            <h2>
+                Skills & Strengths
+            </h2>
+
+            <p>
+                A developing skill set built through finance coursework,
+                professional experience, and hands-on projects.
+            </p>
 
         </div>
 
-      </div>
-
-    </section>
-
-
-    <!-- SKILLS -->
-    <section class="section skills-section" id="skills">
-
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="section-kicker">
-            Skills Showcase
-          </p>
-
-          <h2>
-            Skills I bring to the table.
-          </h2>
-
-          <p>
-            A developing set of finance, analytical, organizational,
-            and professional skills built through academics and
-            hands-on experience.
-          </p>
-
-        </div>
 
 
         <div class="skills-grid">
 
-          <div class="skill-card">
-            <span class="skill-number">01</span>
 
-            <h3>
-              Financial Analysis
-            </h3>
+            <div class="skill">
 
-            <p>
-              Time-value-of-money, valuation, financial
-              decision-making, and quantitative analysis.
-            </p>
-          </div>
+                <div class="skill-number">
+                    01
+                </div>
 
+                <h3>
+                    Financial Analysis
+                </h3>
 
-          <div class="skill-card">
-            <span class="skill-number">02</span>
+                <p>
+                    Applying financial concepts, valuation techniques,
+                    and quantitative analysis to business problems.
+                </p>
 
-            <h3>
-              Microsoft Excel
-            </h3>
-
-            <p>
-              Financial calculations, structured analysis,
-              trackers, and organized business workflows.
-            </p>
-          </div>
+            </div>
 
 
-          <div class="skill-card">
-            <span class="skill-number">03</span>
 
-            <h3>
-              Due Diligence
-            </h3>
+            <div class="skill">
 
-            <p>
-              Document review, issue spotting, risk identification,
-              and transaction-focused research.
-            </p>
-          </div>
+                <div class="skill-number">
+                    02
+                </div>
 
+                <h3>
+                    Microsoft Excel
+                </h3>
 
-          <div class="skill-card">
-            <span class="skill-number">04</span>
+                <p>
+                    Building organized financial calculations,
+                    models, and analytical spreadsheets.
+                </p>
 
-            <h3>
-              Critical Thinking
-            </h3>
-
-            <p>
-              Breaking complex problems into manageable pieces
-              and identifying relevant issues.
-            </p>
-          </div>
+            </div>
 
 
-          <div class="skill-card">
-            <span class="skill-number">05</span>
 
-            <h3>
-              Communication
-            </h3>
+            <div class="skill">
 
-            <p>
-              Professional writing, clear presentation of findings,
-              and cross-team communication.
-            </p>
-          </div>
+                <div class="skill-number">
+                    03
+                </div>
+
+                <h3>
+                    Research & Analysis
+                </h3>
+
+                <p>
+                    Reviewing information, identifying important issues,
+                    and organizing findings into clear conclusions.
+                </p>
+
+            </div>
 
 
-          <div class="skill-card">
-            <span class="skill-number">06</span>
 
-            <h3>
-              Teamwork & Organization
-            </h3>
+            <div class="skill">
 
-            <p>
-              Coordinating tasks, managing deadlines, and keeping
-              workstreams organized.
-            </p>
-          </div>
+                <div class="skill-number">
+                    04
+                </div>
+
+                <h3>
+                    Critical Thinking
+                </h3>
+
+                <p>
+                    Breaking complex problems into smaller components
+                    and evaluating potential solutions.
+                </p>
+
+            </div>
+
+
+
+            <div class="skill">
+
+                <div class="skill-number">
+                    05
+                </div>
+
+                <h3>
+                    Communication
+                </h3>
+
+                <p>
+                    Communicating information clearly through
+                    professional writing and presentations.
+                </p>
+
+            </div>
+
+
+
+            <div class="skill">
+
+                <div class="skill-number">
+                    06
+                </div>
+
+                <h3>
+                    Organization
+                </h3>
+
+                <p>
+                    Managing multiple tasks, deadlines, documents,
+                    and project workstreams efficiently.
+                </p>
+
+            </div>
+
 
         </div>
 
-      </div>
+    </div>
 
-    </section>
+</section>
 
 
-    <!-- PROJECTS -->
-    <section class="section projects-section" id="projects">
 
-      <div class="container">
+<!-- =====================================
+     PROJECTS
+===================================== -->
 
-        <div class="section-heading">
+<section class="projects-section" id="projects">
 
-          <p class="section-kicker">
-            Selected Work
-          </p>
+    <div class="content-container">
 
-          <h2>
-            Projects & experience.
-          </h2>
 
-          <p>
-            Examples of work that demonstrate my interest in finance,
-            transactions, analytical problem-solving, and professional
-            development.
-          </p>
+        <div class="section-introduction">
+
+            <h2>
+                Selected Projects
+            </h2>
+
+            <p>
+                Work and experiences that demonstrate my interests
+                in finance, business, and professional development.
+            </p>
 
         </div>
+
 
 
         <div class="projects-grid">
 
 
-          <!-- PROJECT 1 -->
-          <article class="project-card featured">
+            <!-- PROJECT 1 -->
 
-            <div class="project-top">
+            <article class="project">
 
-              <span class="project-tag">
-                M&A / Due Diligence
-              </span>
+                <div class="project-header">
 
-              <span class="project-index">
-                01
-              </span>
+                    <span class="project-category">
+                        M&A / PRIVATE EQUITY
+                    </span>
 
-            </div>
+                    <span class="project-number">
+                        01
+                    </span>
 
-            <h3>
-              White & Case Private Equity & M&A Simulation
-            </h3>
-
-            <p>
-              Completed a virtual M&A experience based on a
-              private-equity transaction. Reviewed corporate records,
-              commercial contracts, employment agreements, and IP
-              licenses; identified a change-of-control termination
-              risk; and coordinated workstreams across international
-              teams using an Excel tracker.
-            </p>
-
-            <div class="project-skills">
-
-              <span>Due Diligence</span>
-              <span>Risk Identification</span>
-              <span>Excel</span>
-              <span>Teamwork</span>
-
-            </div>
-
-            <a
-              class="project-link"
-              href="https://www.theforage.com/"
-              target="_blank"
-            >
-              View Simulation Reference ↗
-            </a>
-
-          </article>
+                </div>
 
 
-          <!-- PROJECT 2 -->
-          <article class="project-card">
-
-            <div class="project-top">
-
-              <span class="project-tag">
-                Professional Experience
-              </span>
-
-              <span class="project-index">
-                02
-              </span>
-
-            </div>
-
-            <h3>
-              Legal Internship — Kelly Firm, P.C.
-            </h3>
-
-            <p>
-              Gained practical exposure to legal work and professional
-              workflows during a three-month internship. Developed
-              skills in organization, document review, professional
-              communication, and understanding how legal analysis
-              supports client matters.
-            </p>
-
-            <div class="project-skills">
-
-              <span>Research</span>
-              <span>Document Review</span>
-              <span>Communication</span>
-              <span>Organization</span>
-
-            </div>
-
-            <a
-              class="project-link"
-              href="Resume%202026-2.pdf"
-              target="_blank"
-            >
-              View Resume ↗
-            </a>
-
-          </article>
+                <h3>
+                    White & Case
+                    Private Equity & M&A Simulation
+                </h3>
 
 
-          <!-- PROJECT 3 -->
-          <article class="project-card">
+                <p>
 
-            <div class="project-top">
+                    Completed a virtual M&A experience focused on a
+                    large-scale private equity transaction. Reviewed
+                    important contracts and documents, identified
+                    potential issues, and coordinated workstreams
+                    across teams and countries.
 
-              <span class="project-tag">
-                Finance
-              </span>
+                </p>
 
-              <span class="project-index">
-                03
-              </span>
 
-            </div>
+                <div class="project-tags">
 
-            <h3>
-              Financial Analysis & Valuation Coursework
-            </h3>
+                    <span>
+                        Due Diligence
+                    </span>
 
-            <p>
-              Applied finance concepts to valuation and
-              time-value-of-money problems, including present value,
-              future value, annuities, stock valuation, and
-              discount-rate analysis using Excel-based calculations.
-            </p>
+                    <span>
+                        Excel
+                    </span>
 
-            <div class="project-skills">
+                    <span>
+                        M&A
+                    </span>
 
-              <span>Valuation</span>
-              <span>Excel</span>
-              <span>Financial Analysis</span>
-              <span>Quantitative Skills</span>
+                    <span>
+                        Teamwork
+                    </span>
 
-            </div>
+                </div>
 
-            <a
-              class="project-link"
-              href="https://www.business.rutgers.edu/"
-              target="_blank"
-            >
-              Rutgers Business School ↗
-            </a>
 
-          </article>
+                <a
+                    href="https://www.theforage.com/"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Project
+                    <span>↗</span>
+                </a>
+
+            </article>
+
+
+
+            <!-- PROJECT 2 -->
+
+            <article class="project">
+
+                <div class="project-header">
+
+                    <span class="project-category">
+                        PROFESSIONAL EXPERIENCE
+                    </span>
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Legal Internship
+                    <br>
+                    Kelly Firm, P.C.
+                </h3>
+
+
+                <p>
+
+                    Completed a three-month legal internship gaining
+                    experience with professional workflows, document
+                    review, research, organization, and communication.
+                    The experience provided insight into how legal
+                    work supports business and client decisions.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>
+                        Research
+                    </span>
+
+                    <span>
+                        Document Review
+                    </span>
+
+                    <span>
+                        Communication
+                    </span>
+
+                </div>
+
+
+                <a
+                    href="Resume%202026-2.pdf"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Resume
+                    <span>↗</span>
+                </a>
+
+            </article>
+
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project">
+
+                <div class="project-header">
+
+                    <span class="project-category">
+                        FINANCE
+                    </span>
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                </div>
+
+
+                <h3>
+                    Financial Analysis &
+                    Valuation Coursework
+                </h3>
+
+
+                <p>
+
+                    Applied finance concepts including present value,
+                    future value, annuities, stock valuation, and
+                    discount-rate analysis through Excel-based
+                    financial calculations.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>
+                        Finance
+                    </span>
+
+                    <span>
+                        Valuation
+                    </span>
+
+                    <span>
+                        Excel
+                    </span>
+
+                    <span>
+                        Analysis
+                    </span>
+
+                </div>
+
+
+                <a
+                    href="https://www.business.rutgers.edu/"
+                    target="_blank"
+                    class="project-link"
+                >
+                    Rutgers Business School
+                    <span>↗</span>
+                </a>
+
+            </article>
+
 
         </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- CONTACT -->
-    <section class="contact-section" id="contact">
-
-      <div class="container contact-inner">
-
-        <div>
-
-          <p class="section-kicker">
-            Let's Connect
-          </p>
-
-          <h2>
-            Interested in learning more?
-          </h2>
-
-          <p>
-            Feel free to reach out regarding opportunities,
-            projects, or professional connections.
-          </p>
-
-        </div>
-
-        <a
-          class="primary-btn light-btn"
-          href="mailto:wjc126@scarletmail.rutgers.edu"
-        >
-          Email Me
-        </a>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- FOOTER -->
-  <footer class="footer">
-
-    <div class="container footer-inner">
-
-      <p>
-        © 2026 William Cosgrove
-      </p>
-
-      <a href="#top">
-        Back to top ↑
-      </a>
 
     </div>
 
-  </footer>
+</section>
+
+
+
+<!-- =====================================
+     CONTACT
+===================================== -->
+
+<section class="contact-section">
+
+    <div class="contact-container">
+
+
+        <div>
+
+            <div class="contact-label">
+                LET'S CONNECT
+            </div>
+
+
+            <h2>
+                Interested in learning more?
+            </h2>
+
+
+            <p>
+                Feel free to reach out regarding opportunities,
+                projects, or professional connections.
+            </p>
+
+        </div>
+
+
+        <a
+            href="mailto:wjc126@scarletmail.rutgers.edu"
+            class="contact-button"
+        >
+            Email Me
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     FOOTER
+===================================== -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <p>
+            © 2026 William Cosgrove
+        </p>
+
+
+        <a href="#home">
+            Back to top ↑
+        </a>
+
+    </div>
+
+</footer>
+
 
 </body>
+
 </html>
